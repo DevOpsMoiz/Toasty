@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+
+    >
+
+
+    <Button
+        android:id="@+id/Success"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:backgroundTint="@color/lime_green"
+        android:hint="Success"
+        android:padding="14dp"
+        android:textColorHint="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"
+
+        ></Button>
+
+
+    <Button
+        android:id="@+id/Error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:backgroundTint="@color/red"
+        android:hint="Error"
+        android:padding="14dp"
+        android:textColorHint="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"
+
+        ></Button>
+
+    <Button
+        android:id="@+id/Warning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:backgroundTint="@color/yellow"
+        android:hint="Warning"
+        android:padding="14dp"
+        android:textColorHint="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"
+
+        ></Button>
+
+    <Button
+        android:id="@+id/Normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:hint="Normal"
+        android:padding="14dp"
+        android:textColorHint="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"
+
+        ></Button>
+
+    <Button
+        android:id="@+id/Information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:backgroundTint="@color/royal_blue"
+        android:hint="Information"
+        android:padding="14dp"
+        android:textColorHint="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"
+
+        ></Button>
+
+
+</LinearLayout>
